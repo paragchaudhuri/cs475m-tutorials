@@ -1,6 +1,6 @@
 # CS475M Tutorials
 
-This are OpenGL tutorials for CS475M.
+These are OpenGL tutorials for CS475M.
 
 We use OpenGL 3.1-3.2 with the compatibility profile in these examples.
 
