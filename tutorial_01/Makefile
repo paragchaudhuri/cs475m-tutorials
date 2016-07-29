@@ -2,7 +2,7 @@ CC = g++
 LIBS = -lGL -lglut
 
 SRC = tutorial_01.cpp
-BIN = turotial_01
+BIN = tutorial_01
 
 all	:	$(BIN)
 
