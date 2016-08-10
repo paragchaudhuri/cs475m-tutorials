@@ -19,7 +19,7 @@ Compile the code using makefile. <br>
 
 ## RUN
 After successfull compilation just type the following command in your terminal to execute the binary.<br>
-`$ ./03_colorcube_rotate` <br>
+`$ ./tutorial_03` <br>
 
 ## REFERENCES
 http://www.lighthouse3d.com/tutorials/glut-tutorial/keyboard/
