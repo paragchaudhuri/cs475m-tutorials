@@ -1,5 +1,5 @@
 CC = g++
-LIBS = -lGL -lglut -lGLU -lm 
+LIBS = -framework OpenGL -framework GLUT
 
 SRC = tutorial_02.cpp
 BIN = tutorial_02

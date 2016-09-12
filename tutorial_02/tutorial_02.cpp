@@ -1,7 +1,10 @@
 /*
  * Reference: https://www.opengl.org/archives/resources/code/samples/glut_examples/examples/examples.html
  */
-#include <GL/glut.h>
+
+#include <GLUT/glut.h>	//Include for MAC
+//#include <OpenGL/glu.h>
+//#include <GL/glut.h>
 
 using namespace std;
 

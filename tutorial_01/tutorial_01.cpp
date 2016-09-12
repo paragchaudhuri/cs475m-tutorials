@@ -5,8 +5,8 @@
  *             https://www.opengl.org/sdk/docs/man2/xhtml/
  */
 
-//#include <GLUT/glut.h>	//Include for MAC
-#include <GL/glut.h>	//Include for Linux
+#include <GLUT/glut.h>	//Include for MAC
+//#include <GL/glut.h>	//Include for Linux
 
 void yourRenderFunction(void) {
 
