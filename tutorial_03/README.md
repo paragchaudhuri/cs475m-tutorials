@@ -1,6 +1,5 @@
 ## INTRODUCTION
 This program renders a coloured cube that can be rotated using arrowkeys and page up, page down keys.<br>
-<center>
 
 |    Key    |                Operation               |
 |:---------:|:--------------------------------------:|
@@ -12,7 +11,6 @@ This program renders a coloured cube that can be rotated using arrowkeys and pag
 | Page Up   | Counter clockwise rotation over z-axis |
 | Page Down | Clockwise rotation over z-axis         |
 
-</center>
 ## COMPILATION
 Compile the code using makefile. <br>
 `$ make`
@@ -22,5 +20,5 @@ After successfull compilation just type the following command in your terminal t
 `$ ./tutorial_03` <br>
 
 ## REFERENCES
-http://www.lighthouse3d.com/tutorials/glut-tutorial/keyboard/
+http://www.lighthouse3d.com/tutorials/glut-tutorial/keyboard/ <br>
 https://www.opengl.org/archives/resources/code/samples/glut_examples/examples/examples.html
