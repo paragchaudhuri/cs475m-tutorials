@@ -1,5 +1,12 @@
 CC = g++
-LIBS = -lGL -lglut -lGLU -lm 
+
+UNAME_S := $(shell uname -s)
+ifeq ($(UNAME_S),Linux)
+    LIBS = -lGL -lglut -lGLU -lm 
+endif
+ifeq ($(UNAME_S),Darwin)
+    LIBS = -framework OpenGL -framework GLUT
+endif
 
 SRC = tutorial_04.cpp
 BIN = tutorial_04

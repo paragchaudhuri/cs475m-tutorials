@@ -1,5 +1,10 @@
 #include<iostream>
+#ifdef __APPLE__
+#include <GLUT/glut.h>  //Include for MAC
+#endif
+#ifndef __APPLE__
 #include <GL/glut.h>
+#endif
 #include<vector>
 
 #ifndef _HNODE_HPP_

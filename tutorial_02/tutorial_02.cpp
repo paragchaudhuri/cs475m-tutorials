@@ -1,7 +1,13 @@
 /*
  * Reference: https://www.opengl.org/archives/resources/code/samples/glut_examples/examples/examples.html
  */
+
+#ifdef __APPLE__
+#include <GLUT/glut.h>  //Include for MAC
+#endif
+#ifndef __APPLE__
 #include <GL/glut.h>
+#endif
 
 using namespace std;
 

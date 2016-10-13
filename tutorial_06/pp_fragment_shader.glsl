@@ -1,4 +1,4 @@
-#version 130
+#version 120
 
 // Variables set from C++ code
 uniform vec4 lightPos;
