@@ -1,4 +1,4 @@
-#version 130
+#version 120
 
 varying vec4 glCol;
 varying vec4 glVer;

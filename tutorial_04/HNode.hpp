@@ -1,5 +1,5 @@
 #include<iostream>
-#include <GL/glut.h>
+#include <GLUT/glut.h>
 #include<vector>
 
 #ifndef _HNODE_HPP_

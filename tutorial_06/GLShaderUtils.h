@@ -1,7 +1,12 @@
 #ifndef _SHADER_UTIL_HPP_
 #define _SHADER_UTIL_HPP_
 
+#ifdef __APPLE__
+#include <OpenGL/gl3.h>
+#endif
+#ifndef __APPLE__
 #include <GL/glew.h>
+#endif
 #include <algorithm>
 #include <string>
 #include <vector>

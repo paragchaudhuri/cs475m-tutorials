@@ -2,9 +2,12 @@
  * Reference: https://www.opengl.org/archives/resources/code/samples/glut_examples/examples/examples.html
  */
 
-#include <GLUT/glut.h>	//Include for MAC
-//#include <OpenGL/glu.h>
-//#include <GL/glut.h>
+#ifdef __APPLE__
+#include <GLUT/glut.h>  //Include for MAC
+#endif
+#ifndef __APPLE__
+#include <GL/glut.h>
+#endif
 
 using namespace std;
 

@@ -2,7 +2,12 @@
 */
 
 #include "GLShaderUtils.h"
+#ifdef __APPLE__
+#include <GLUT/glut.h>  //Include for MAC
+#endif
+#ifndef __APPLE__
 #include <GL/glut.h>
+#endif
 #include<iostream>
 #include<fstream>
 #include<stdio.h>
@@ -424,13 +429,17 @@ int main(int argc, char **argv)
   glutDisplayFunc(display);
   glutKeyboardFunc(processNormalKeys);
   glutSpecialFunc(processSpecialKeys);
+  #ifndef __APPLE__
   glewInit();
+  #endif
   init();
 
+  #ifndef __APPLE__
   if (!(GLEW_ARB_vertex_shader && GLEW_ARB_fragment_shader)) {
     cout<<"Shaders (GLSL) not supported."<<endl;
     exit(1);
   }
+  #endif
 
   glutMainLoop();
   return 0;

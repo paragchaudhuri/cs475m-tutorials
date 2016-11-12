@@ -3,7 +3,13 @@
 *            http://www.lighthouse3d.com/tutorials/glut-tutorial/keyboard/
 *            http://www.lighthouse3d.com/tutorials/glut-tutorial/animation/
 */
+#ifdef __APPLE__
+#include <GLUT/glut.h>  //Include for MAC
+#endif
+#ifndef __APPLE__
 #include <GL/glut.h>
+#endif
+
 #include<iostream>
 
 using namespace std;
